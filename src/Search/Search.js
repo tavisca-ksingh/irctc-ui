@@ -17,14 +17,16 @@ export default class Search extends Component {
   render() {
     return (
         <div className="Search">
-        
+        <h3>Search Trains</h3>
         <input type="text" placeholder="Source"/>
         <input type="text" placeholder="Destination"/>
+        <br/><br/>
         <DatePicker
         selected={this.state.startDate}
         onChange={this.handleChange}
       />    
        <button >Search</button>
+       <br/><br/>
         </div>
     );
   }

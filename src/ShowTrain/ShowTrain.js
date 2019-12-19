@@ -24,20 +24,27 @@ export default class ShowTrains extends Component {
     render() {
         return (
             <div className="showtrain">
-                <table>
+                <table className="TFtable">
+        <thead><th>Train Id</th><th>Train Name</th><th>Total Seats</th><th>Book</th></thead>
+
+                <tbody>
                     {
                     Trains.map((s,index) => {
-                           return( <tr>
-                            <td>
-                              
-                    <Popup trigger={ <p >{s.id} </p>} position="center" onClick = {()=>this.handleChange(index)}>
-                    <ShowStops stop = {this.state.stops}/>
-                    </Popup>
-                           
+                           return( 
+                               
+                               <tr>
+                            <td>      
+                            <Popup trigger = {<p  >  {s.id} </p> }
+                            modal
+                            closeOnDocumentClick>
+                            <p  onClick=  {()=>this.handleChange(index)}>{s.id} </p>
+                            <ShowStops stop = {this.state.stops}></ShowStops>   
+                            </Popup>            
+                             
                             </td><td>{s.name}</td><td>{s.totalSeats.FIRST_AC}</td><td><button>Book</button></td>
                             </tr>)
                         })
-                    } </table>          
+                    } </tbody></table>          
                 
             </div>
         );
