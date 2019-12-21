@@ -9,7 +9,7 @@
                     "id": 1,
                     "arrivalTime": "2019-12-19T04:41:47.723537Z",
                     "departureTime": "2019-12-19T04:41:47.723537Z",
-                    "distanceTravelled": 200,
+                    "distanceTravelled": 0,
                     "currentAvailability": {
                         "SECOND_AC": 5
                     },
@@ -22,7 +22,7 @@
                     "id": 2,
                     "arrivalTime": "2019-12-19T04:41:47.726537Z",
                     "departureTime": "2019-12-19T04:41:47.726537Z",
-                    "distanceTravelled": 200,
+                    "distanceTravelled": 100,
                     "currentAvailability": {
                         "FIRST_AC": 5
                     },
@@ -50,7 +50,7 @@
                     "id": 1,
                     "arrivalTime": "2019-12-19T04:41:47.723537Z",
                     "departureTime": "2019-12-19T04:41:47.723537Z",
-                    "distanceTravelled": 200,
+                    "distanceTravelled": 0,
                     "currentAvailability": {
                         "SECOND_AC": 5
                     },
@@ -63,7 +63,7 @@
                     "id": 2,
                     "arrivalTime": "2019-12-19T04:41:47.726537Z",
                     "departureTime": "2019-12-19T04:41:47.726537Z",
-                    "distanceTravelled": 200,
+                    "distanceTravelled": 50,
                     "currentAvailability": {
                         "FIRST_AC": 5
                     },
@@ -91,7 +91,7 @@
                     "id": 1,
                     "arrivalTime": "2019-12-19T04:41:47.723537Z",
                     "departureTime": "2019-12-19T04:41:47.723537Z",
-                    "distanceTravelled": 200,
+                    "distanceTravelled": 0,
                     "currentAvailability": {
                         "SECOND_AC": 5
                     },
@@ -104,7 +104,7 @@
                     "id": 2,
                     "arrivalTime": "2019-12-19T04:41:47.726537Z",
                     "departureTime": "2019-12-19T04:41:47.726537Z",
-                    "distanceTravelled": 200,
+                    "distanceTravelled": 80,
                     "currentAvailability": {
                         "FIRST_AC": 5
                     },
