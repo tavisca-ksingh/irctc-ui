@@ -46,7 +46,7 @@ class Booking extends Component {
         <tr><td>Destination </td><td> { train.stops[ train.stops.length-1].station.name}</td></tr>
         <tr><td>Class</td>
         <td><Dropdown options={options} onChange={this._onSelect} value={defaultOption} placeholder="Select an option" /></td></tr>
-        <tr><td>No. of Passenger</td> <input type="number" placeholder= "Enter Your Question" onChange= {this.inputHandle}></input>
+        <tr><td>No. of Passenger</td> <input type="number" placeholder= "No. of Person" onChange= {this.inputHandle}></input>
         </tr>
         <tr><td>Fare</td><td>{price}</td></tr>
         </tbody>
